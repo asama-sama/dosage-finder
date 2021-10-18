@@ -1,6 +1,6 @@
 # About
 
-This is a backend coding challenge that provides an API to provide information when queried by a given user id. Each user has a list of medications and how many times a day to take this medication stored in a JSON format, and this API returns the times on this current day that the user should take those medications, spaced evenly apart.
+This is a backend coding challenge that provides an API to information on user medication timings. Each user has a list of medications and how many times a day to take this medication stored in a JSON format, and this API calculates and returns the times on this current day that the user should take those medications, spaced evenly apart.
 
 Data is stored in `/data/healthdata.json`. This is the file to be replaced if you wish to test against other data.
 
