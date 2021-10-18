@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Mary",
+      "lastName": "Sue",
+      "schedules": [
+        {
+          "id": "100",
+          "medication": {
+            "id": "pristiq",
+            "name": "Pristiq",
+            "doses_per_day": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "firstName": "John",
+      "lastName": "Appleseed",
+      "schedules": [
+        {
+          "id": "200",
+          "medication": {
+            "id": "lipitor",
+            "name": "Lipitor",
+            "doses_per_day": 3
+          }
+        },
+        {
+          "id": "300",
+          "medication": {
+            "id": "norvasc",
+            "name": "Norvasc",
+            "doses_per_day": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "firstName": "Billy",
+      "lastName": "Bob",
+      "schedules": [
+        {
+          "id": "400",
+          "medication": {
+            "id": "prilosec",
+            "name": "Prilosec",
+            "doses_per_day": 1
+          }
+        },
+        {
+          "id": "500",
+          "medication": {
+            "id": "lexapro",
+            "name": "Lexapro",
+            "doses_per_day": 2
+          }
+        }
+      ]
+    }
+  ]
+}
