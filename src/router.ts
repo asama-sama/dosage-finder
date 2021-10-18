@@ -1,5 +1,5 @@
 import express from 'express';
-import getDosagesForUser from './middleware/getDosagesForUser'
+import getDosagesForUser from './middleware/getDosagesForUser';
 import healthCheck from './middleware/healthCheck';
 
 const router = express.Router();

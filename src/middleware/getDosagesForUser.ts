@@ -1,5 +1,14 @@
-const getDosagesForUser = (req: any, res: any) => {
-  res.ok()
-}
+import getUserForId from '../utils/getUserForId';
+import loadData from '../utils/loadData';
 
-export default getDosagesForUser
+const getDosagesForUser = (req: any, res: any) => {
+  try {
+    const users = loadData();
+    const user = getUserForId(users, req.params.userId);
+    res.send(user);
+  } catch (e: any) {
+    res.status(500).send(e.message);
+  }
+};
+
+export default getDosagesForUser;

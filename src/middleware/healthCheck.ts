@@ -1,3 +1,3 @@
-const healthCheck = (req: any, res: any) => res.ok;
+const healthCheck = (req: any, res: any) => res.send(200);
 
 export default healthCheck;
