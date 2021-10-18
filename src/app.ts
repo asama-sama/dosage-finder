@@ -7,4 +7,5 @@ const app = express();
 
 app.use(router);
 
+// eslint-disable-next-line no-console
 app.listen(port, () => console.log(`app is listening on port ${port}`));
